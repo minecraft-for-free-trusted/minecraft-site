@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Download Minecraft – Try It Free</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;700;800&display=swap">
+<style>
+:root{--sky1:#6ec6ff;--sky2:#d9f1ff;--bg:#fdf8ef;--card:#fff;--text:#2a2118;--muted:#6b5d4d;--grass:#5cb338;--grass-d:#3b8a22;--dirt:#8b5a2b;--stone:#8e8e8e;--line:#e6d9c3;--gold:#f5a623;--px:"Press Start 2P",ui-monospace,monospace;--ui:Nunito,system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sky1:#12304d;--sky2:#1d4a73;--bg:#17130e;--card:#241d15;--text:#f4ead9;--muted:#b9a88f;--line:#3a3023}}
+:root[data-theme="dark"]{--sky1:#12304d;--sky2:#1d4a73;--bg:#17130e;--card:#241d15;--text:#f4ead9;--muted:#b9a88f;--line:#3a3023}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--ui);line-height:1.65;font-size:17px}
+.top{background:linear-gradient(var(--sky1),var(--sky2));text-align:center;padding:36px 20px 0;position:relative;overflow:hidden}
+.logo{font-family:var(--px);font-size:14px;color:#fff;text-shadow:2px 2px 0 rgba(0,0,0,.4);margin-bottom:28px}
+.top h1{font-family:var(--px);font-size:clamp(22px,6vw,44px);line-height:1.4;margin:0 0 16px;color:#fff;text-shadow:4px 4px 0 rgba(0,0,0,.35)}
+.top p{max-width:560px;margin:0 auto 26px;color:#fff;font-weight:700;font-size:18px;text-shadow:1px 1px 0 rgba(0,0,0,.3)}
+.btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-bottom:12px}
+.btn{font-family:var(--px);font-size:12px;padding:18px 24px;background:var(--grass);color:#fff;text-decoration:none;border:4px solid #1c1c1c;box-shadow:0 6px 0 #1c1c1c;transition:transform .08s,box-shadow .08s;display:inline-block}
+.btn.alt{background:#fff;color:#1c1c1c}
+.btn:active{transform:translateY(5px);box-shadow:0 1px 0 #1c1c1c}
+.note{font-size:13px;color:#fff;font-weight:700;margin:0 0 28px}
+.ground{height:56px;background:linear-gradient(var(--grass) 0 24px,var(--dirt) 24px);margin:0 -20px;border-top:4px solid #1c1c1c}
+main{max-width:980px;margin:0 auto;padding:0 20px}
+section{padding:48px 0 8px}
+h2{font-family:var(--px);font-size:clamp(14px,3.6vw,19px);line-height:1.6;margin:0 0 10px}
+.lead{color:var(--muted);margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:3px solid var(--line);border-bottom-width:6px;padding:20px}
+.card .ic{font-size:30px}
+.card h3{margin:6px 0 4px;font-size:19px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:40px}
+.stat{background:var(--grass);color:#fff;text-align:center;padding:18px 8px;border:3px solid #1c1c1c}
+.stat b{display:block;font-family:var(--px);font-size:18px;margin-bottom:6px}
+.stat span{font-size:13px;font-weight:700}
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:12px;counter-reset:s}
+.steps li{counter-increment:s;background:var(--card);border:3px solid var(--line);padding:16px 16px 16px 66px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:14px;top:14px;width:38px;height:38px;display:grid;place-items:center;background:var(--gold);color:#1c1c1c;font-family:var(--px);font-size:13px;border:3px solid #1c1c1c}
+.steps b{display:block}
+.steps span{color:var(--muted);font-size:15px}
+.table{overflow-x:auto}
+table{width:100%;min-width:480px;border-collapse:collapse;background:var(--card);border:3px solid var(--line)}
+th,td{padding:12px 14px;text-align:left;border-bottom:2px solid var(--line);font-size:15px}
+th{font-family:var(--px);font-size:10px;color:var(--grass-d)}
+details{background:var(--card);border:3px solid var(--line);padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:800}
+details p{margin:10px 0 0;color:var(--muted);font-size:15px}
+.cta{margin:56px -20px 0;background:var(--stone);text-align:center;padding:48px 20px;border-top:4px solid #1c1c1c}
+.cta h2{color:#fff;text-shadow:2px 2px 0 rgba(0,0,0,.4)}
+.cta p{color:#fff;font-weight:700}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:24px 20px 36px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="logo">⛏ MINECRAFT</div>
+  <h1>Download Minecraft<br>Try It Free</h1>
+  <p>Mine, build and survive in a world without limits. Start with the free trial and jump into your first adventure in minutes.</p>
+  <div class="btns">
+    <a class="btn dl" href="#">⬇ Download Minecraft Free</a>
+    <a class="btn alt dl-android" href="#">▶ Android</a>
+  </div>
+  <p class="note">Free trial · Official download · PC, Mac, Linux &amp; Mobile</p>
+  <div class="ground"></div>
+</header>
+
+<main>
+  <div class="stats">
+    <div class="stat"><b>300M+</b><span>Copies sold</span></div>
+    <div class="stat"><b>∞</b><span>Possible worlds</span></div>
+    <div class="stat"><b>7+</b><span>Age rating</span></div>
+    <div class="stat"><b>2011</b><span>Full release</span></div>
+  </div>
+
+  <section>
+    <h2>WHAT YOU CAN DO</h2>
+    <p class="lead">Minecraft has no fixed goal. You decide how to play.</p>
+    <div class="grid">
+      <div class="card"><div class="ic">🏰</div><h3>Build</h3><p>From tiny huts to giant castles, place blocks and shape the world your way.</p></div>
+      <div class="card"><div class="ic">⛏️</div><h3>Mine &amp; Craft</h3><p>Dig for coal, iron and diamonds, then craft tools, weapons and armor.</p></div>
+      <div class="card"><div class="ic">🧟</div><h3>Survive</h3><p>Night brings zombies, skeletons and creepers. Build a shelter and fight back.</p></div>
+      <div class="card"><div class="ic">🐉</div><h3>Explore Dimensions</h3><p>Travel to the fiery Nether and the mysterious End to face the Ender Dragon.</p></div>
+      <div class="card"><div class="ic">👫</div><h3>Multiplayer</h3><p>Play with friends, join servers and try mini-games made by the community.</p></div>
+      <div class="card"><div class="ic">🎨</div><h3>Customize</h3><p>Change your skin, add texture packs and download custom maps.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>HOW TO START</h2>
+    <p class="lead">Four quick steps to your first world.</p>
+    <ol class="steps">
+      <li><b>Press Download</b><span>You will be taken to the official download page for your device.</span></li>
+      <li><b>Install the game</b><span>Follow the installer and sign in with a Microsoft account.</span></li>
+      <li><b>Create a world</b><span>Pick Survival or Creative and press Play.</span></li>
+      <li><b>Collect wood</b><span>Punch a tree, craft a table and build a shelter before nightfall.</span></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>SYSTEM REQUIREMENTS</h2>
+    <p class="lead">Basic specs to run the game smoothly.</p>
+    <div class="table"><table>
+      <tr><th>DEVICE</th><th>MINIMUM</th><th>RECOMMENDED</th></tr>
+      <tr><td>PC</td><td>4 GB RAM, Intel HD graphics</td><td>8 GB RAM, dedicated GPU</td></tr>
+      <tr><td>Mac / Linux</td><td>4 GB RAM</td><td>8 GB RAM</td></tr>
+      <tr><td>Android</td><td>Android 8+, 2 GB RAM</td><td>4 GB RAM</td></tr>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>QUESTIONS</h2>
+    <p class="lead">&nbsp;</p>
+    <details><summary>Is Minecraft really free?</summary><p>The free trial lets you try the game at no cost. The full game is a paid product, and buying it supports the developers.</p></details>
+    <details><summary>Can I play with friends?</summary><p>Yes. Invite friends to your world or join a public server.</p></details>
+    <details><summary>Is it safe for kids?</summary><p>It is rated 7+ and includes parental controls. Supervise online play for younger players.</p></details>
+  </section>
+
+  <div class="cta">
+    <h2>YOUR WORLD IS WAITING</h2>
+    <p>Download now and start building.</p>
+    <a class="btn dl" href="#">⬇ Download Minecraft Free</a>
+  </div>
+</main>
+<footer>Unofficial fan site. Minecraft is a trademark of Mojang Studios / Microsoft. Not affiliated.</footer>
+<script>
+var PC_URL="https://www.minecraft.net/en-us/download";
+var ANDROID_URL="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe";
+function setup(sel,url){document.querySelectorAll(sel).forEach(function(a){a.href=url;a.target="_blank";a.rel="noopener";});}
+setup(".dl",PC_URL);setup(".dl-android",ANDROID_URL);
+</script>
+</body>
+</html>
